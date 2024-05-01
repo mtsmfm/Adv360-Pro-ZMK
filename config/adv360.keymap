@@ -81,7 +81,7 @@
         layer_WIN_MOD {
             bindings = <
       &trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)            &trans                                                  &trans  &kp RG(NUMBER_6)  &kp RG(NUMBER_7)  &kp RG(NUMBER_8)  &kp RG(NUMBER_9)  &kp RG(NUMBER_0)  &trans
- &kp LG(TAB)            &trans         &kp LC(W)            &trans         &kp LC(R)         &kp LC(T)            &trans                                                  &trans            &trans            &trans            &trans            &trans         &kp RC(P)  &trans
+ &kp LG(TAB)            &trans         &kp LC(W)         &kp LG(E)         &kp LC(R)         &kp LC(T)            &trans                                                  &trans            &trans            &trans            &trans            &trans         &kp RC(P)  &trans
       &trans         &kp LC(A)            &trans         &kp LG(D)         &kp LC(F)         &kp LG(G)            &trans  &trans  &trans                  &trans  &trans  &trans            &trans            &trans            &trans            &trans            &trans  &trans
       &trans         &kp LC(Z)         &kp LC(X)         &kp LC(C)         &kp LC(V)            &trans                            &trans                  &trans                         &kp RC(N)            &trans            &trans            &trans            &trans  &trans
       &trans            &trans            &trans      &kp LG(LEFT)     &kp LG(RIGHT)                              &trans  &trans  &trans                  &trans  &trans  &trans                              &trans            &trans            &trans            &trans  &trans
