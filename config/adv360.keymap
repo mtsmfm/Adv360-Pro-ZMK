@@ -42,9 +42,9 @@
             bindings = <
  &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &tog 1                                                               &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
    &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T               &none                                                               &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
-   &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G               &none    &mo 5     &mo 4                      &mo 4      &mo 5      &none   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
- &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                               &kp LALT                   &kp RALT                         &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC  &kp DEL  &kp LGUI                  &kp RCTRL  &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+   &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G               &none    &mo 5      &mo 4                     &mo 4      &mo 5      &none   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
+ &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                &kp LALT                  &kp RALT                         &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
+     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC  &kp DEL  &kp LCTRL                  &kp RGUI  &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
@@ -82,7 +82,7 @@
             bindings = <
       &trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)            &trans                                                  &trans  &kp RG(NUMBER_6)  &kp RG(NUMBER_7)  &kp RG(NUMBER_8)  &kp RG(NUMBER_9)  &kp RG(NUMBER_0)  &trans
  &kp LG(TAB)            &trans         &kp LC(W)         &kp LG(E)         &kp LC(R)         &kp LC(T)            &trans                                                  &trans            &trans            &trans            &trans            &trans         &kp RC(P)  &trans
-      &trans         &kp LC(A)            &trans         &kp LG(D)         &kp LC(F)         &kp LG(G)            &trans  &trans  &trans                  &trans  &trans  &trans            &trans            &trans            &trans            &trans            &trans  &trans
+      &trans         &kp LC(A)         &kp LG(S)         &kp LG(D)         &kp LC(F)         &kp LG(G)            &trans  &trans  &trans                  &trans  &trans  &trans            &trans            &trans            &trans         &kp RG(L)            &trans  &trans
       &trans         &kp LC(Z)         &kp LC(X)         &kp LC(C)         &kp LC(V)            &trans                            &trans                  &trans                         &kp RC(N)            &trans            &trans            &trans            &trans  &trans
       &trans            &trans            &trans      &kp LG(LEFT)     &kp LG(RIGHT)                              &trans  &trans  &trans                  &trans  &trans  &trans                              &trans            &trans            &trans            &trans  &trans
             >;
